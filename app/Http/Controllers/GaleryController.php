@@ -13,12 +13,12 @@ class GaleryController extends Controller
     public function __construct()
     {
         $this->meta = new stdClass();
-        $this->meta->keywords = 'galery foto berita imata lhokseumawe - aceh utara, imata lhokseumawe - aceh utara, imata, tamiang, mahasiswa tamiang';
-        $this->meta->author = 'INFOKOM IMATA';
-        $this->meta->description = 'Galery foto berita dan artikel mengenai Ikatan Mahasiswa Aceh Tamiang, Lhokseumawe - Aceh Utara';
-        $this->meta->url = 'https://imata.web.id/galery';
+        $this->meta->keywords = 'galery foto berita ukm ptq unimal, ukm ptq unimal, ukm ptq, ukm, ptq';
+        $this->meta->author = 'PUBDOK PTQ UNIMAL';
+        $this->meta->description = 'Unit Kegiatan Mahasiswa Pengembangan Tilawatil Qur\'an, Universitas Malikussaleh';
+        $this->meta->url = 'https://ptq.unimal.ac.id/galery';
         $this->meta->type = 'galery';
-        $this->meta->image = 'https://imata.web.id/img/logo.png';
+        $this->meta->image = 'https://ptq.unimal.ac.id/img/logo.png';
     }
 
     public function index()

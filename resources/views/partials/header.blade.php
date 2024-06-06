@@ -14,14 +14,12 @@
                             <ul>
                                 <li><a href="/divisi/teras">Teras</a></li>
                                 <li><a href="/divisi/agama">Keagamaan dan Sosial</a></li>
+                                <li><a href="/divisi/pelatihan">Pendidikan dan Pelatihan</a></li>
                                 <li><a href="/divisi/humas">Hubungan Masyarakat</a></li>
                                 <li><a href="/divisi/pubdok">Publikasi dan Dokumentasi</a></li>
-                                <li><a href="/divisi/kaderisasi">Kaderisasi</a></li>
+                                <li><a href="/divisi/kaderisasi">Kaderisasi dan Pengembangan</a></li>
                                 <li><a href="/divisi/sekretariat">Kesekretariatan</a></li>
-                                <li><a href="/divisi/kwh">Kewirausahaan</a></li>
-                                <li><a href="/divisi/pelatihan">Pelatihan</a></li>
-                                <li><a href="/divisi/seni">Seni dan Budaya</a></li>
-                                <li><a href="/divisi/olahraga">Pemuda dan Olahraga</a></li>
+                                <li><a href="/divisi/wirausaha">Kewirausahaan</a></li>
                             </ul>
                         </li>
                     </ul>

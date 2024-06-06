@@ -13,7 +13,7 @@ class HomeController extends Controller
     public function __construct()
     {
         $this->meta = new stdClass();
-        $this->meta->keywords = 'UKM PTQ - UNIMAL, ukmptq, ptq, mahasiswa ptq';
+        $this->meta->keywords = 'ukm ptq unimal, ukm ptq, ukm, ptq';
         $this->meta->author = 'PUBDOK PTQ UNIMAL';
         $this->meta->description = 'Unit Kegiatan Mahasiswa Pengembangan Tilawatil Qur\'an adalah sebuah organisasi yang terdiri dari mahasiswa-mahasiswa UNIMAL yang berkompeten dalam bidang Al-Qur\'an. UKM PTQ bertujuan untuk menjadi wadah bagi mahasiswa/i UNIMAL yang ingin memulai dan mengembangkan bakatnya dalam seni Al-Qur\'an, seperti Tilawatil Qur\'an, Syarhil Qur\'an, Tahsin Qur\'an dan lain-lain.';
         $this->meta->url = 'https://ptq.unimal.ac.id';

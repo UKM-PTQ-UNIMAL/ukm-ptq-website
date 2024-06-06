@@ -122,7 +122,12 @@
                 </div>
                 <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-3 mb-lg-4">
                     <div class="icon-box">
-                        <h4 class="title text-uppercase"><a href="/divisi/humas">HUBUNGAN MASYARAKAT</a></h4>
+                        <h4 class="title text-uppercase"><a href="/divisi/pelatihan">Pendidikan dan Pelatihan</a></h4>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-3 mb-lg-4">
+                    <div class="icon-box">
+                        <h4 class="title text-uppercase"><a href="/divisi/humas">Hubungan Masyarakat</a></h4>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-3 mb-lg-4">
@@ -132,22 +137,17 @@
                 </div>
                 <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-3 mb-lg-4">
                     <div class="icon-box">
-                        <h4 class="title text-uppercase"><a href="/divisi/kaderisasi">KADERISASI</a></h4>
+                        <h4 class="title text-uppercase"><a href="/divisi/kaderisasi">Kaderisasi dan Pengembangan</a></h4>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-3 mb-lg-4">
                     <div class="icon-box">
-                        <h4 class="title text-uppercase"><a href="/divisi/sekretariat">KESEKRETARIATAN</a></h4>
+                        <h4 class="title text-uppercase"><a href="/divisi/sekretariat">Kesekretariatan</a></h4>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-3 mb-lg-4">
                     <div class="icon-box">
-                        <h4 class="title text-uppercase"><a href="/divisi/wirausaha">KEWIRAUSAHAAN</a></h4>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-3 mb-lg-4">
-                    <div class="icon-box">
-                        <h4 class="title text-uppercase"><a href="/divisi/pelatihan">PELATIHAN</a></h4>
+                        <h4 class="title text-uppercase"><a href="/divisi/wirausaha">Kewirausahaan</a></h4>
                     </div>
                 </div>
             </div>
@@ -200,8 +200,7 @@
                         <div class="card-body p-lg-5">
                             <div class="row">
                                 <div class="col-lg-6 mb-5">
-                                    <form action="/contact" method="post">
-                                        @csrf
+                                    <form action="#">
                                         <h3>Kontak Kami</h3>
                                         <div class="row g-2 mt-4 mb-3">
                                             <div class="col-md">
@@ -231,23 +230,24 @@
                                         @endif
                                         <div class="d-grid gap-2">
                                             <button class="btn btn-primary text-light mt-5" name="kirim"
-                                                type="submit">Kirim</button>
+                                                type="button">Kirim</button>
                                         </div>
                                     </form>
                                 </div>
                                 <div class="col-lg-6">
                                     <h3>Hubungi Kami</h3>
                                     <div class="pt-1">
-                                        <p><i class="bi bi-telephone-fill"></i> : +62 821-8192-3565 <br>
-                                            <i class="bi bi-envelope-fill"></i> : imatalhokacut@gmail.com <br>
-                                            <i class="bi bi-geo-alt-fill"></i> : Lhokseumawe - Aceh Utara, Aceh, Indonesia
+                                        <p><i class="bi bi-telephone-fill"></i> : +62 857-6632-2275 <br>
+                                            <i class="bi bi-envelope-fill"></i> : ptq@unimal.ac.id <br>
+                                            <i class="bi bi-geo-alt-fill"></i> : Universitas Malikussaleh, Lhokseumawe
                                         </p>
                                     </div>
                                     <h3 class="mt-4 pb-1">Lokasi Kami</h3>
                                     <div class="embed-responsive embed-responsive-21by9 ratio ratio-21x9 mb-5">
                                         <iframe
-                                            src="https://maps.google.com/maps?q=Lhokseumawe&t=&z=10&ie=UTF8&iwloc=&output=embed"
-                                            style="border:0;" allowfullscreen="" loading="lazy" height="500"></iframe>
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127148.4035501836!2d96.974285421242!3d5.201617116903586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304783321066bb13%3A0xeca0b1bf491a9e42!2sUniversitas%20Malikussaleh%20(Kampus%20Bukit%20Indah)!5e0!3m2!1sid!2sus!4v1717679404371!5m2!1sid!2sus"
+                                            width="600" height="450" style="border:0;" allowfullscreen=""
+                                            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                     </div>
                                 </div>
                             </div>

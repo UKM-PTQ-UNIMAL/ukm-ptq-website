@@ -9,19 +9,19 @@ class Divisi
         [
             "nama" => "Firgiawan L. Aripman",
             "jabatan" => "Ketua Umum",
-            "foto" => "firgi.jpg",
+            "foto" => "firgi.png",
             "divisi" => "teras",
         ],
         [
             "nama" => "Dzul Khaira Riddhan",
             "jabatan" => "Wakil Ketua Umum",
-            "foto" => "riddhan.jpg",
+            "foto" => "riddhan.png",
             "divisi" => "teras",
         ],
         [
             "nama" => "Aulia Syuhada",
             "jabatan" => "Sekretaris Umum",
-            "foto" => "syuhada.jpg",
+            "foto" => "syuhada.png",
             "divisi" => "teras",
         ],
         [
@@ -34,14 +34,14 @@ class Divisi
         // Keagamaan dan Sosial
         [
             "nama" => "Syahril Arifin Namonangan Nst",
-            "jabatan" => "Anggota",
+            "jabatan" => "Ketua Divisi",
             "foto" => "syahril.png",
             "divisi" => "agama",
         ],
         [
             "nama" => "Alia Fati'ah",
             "jabatan" => "Anggota",
-            "foto" => "alia.jpg",
+            "foto" => "alia.png",
             "divisi" => "agama",
         ],
         [
@@ -53,7 +53,7 @@ class Divisi
         [
             "nama" => "Afnita Fitria",
             "jabatan" => "Anggota",
-            "foto" => "afnita.jpg",
+            "foto" => "afnita.png",
             "divisi" => "agama",
         ],
         [
@@ -61,6 +61,38 @@ class Divisi
             "jabatan" => "Anggota",
             "foto" => "juliana.png",
             "divisi" => "agama",
+        ],
+
+        // Pendidikan dan Pelatihan
+        [
+            "nama" => "Tiara Mahkota Rizki",
+            "jabatan" => "Ketua Divisi",
+            "foto" => "tiara.png",
+            "divisi" => "pelatihan",
+        ],
+        [
+            "nama" => "Alia Avanza",
+            "jabatan" => "Anggota",
+            "foto" => "alia.png",
+            "divisi" => "pelatihan",
+        ],
+        [
+            "nama" => "Husna Az-Zahra",
+            "jabatan" => "Anggota",
+            "foto" => "husna.png",
+            "divisi" => "pelatihan",
+        ],
+        [
+            "nama" => "Wanda April Pratama ",
+            "jabatan" => "Anggota",
+            "foto" => "april.png",
+            "divisi" => "pelatihan",
+        ],
+        [
+            "nama" => "Yasmin Suci Mauliza",
+            "jabatan" => "Anggota",
+            "foto" => "yasmin.png",
+            "divisi" => "pelatihan",
         ],
 
         // HUMAS
@@ -73,7 +105,7 @@ class Divisi
         [
             "nama" => "Bella Aldama",
             "jabatan" => "Anggota",
-            "foto" => "bella.jpg",
+            "foto" => "bella.png",
             "divisi" => "humas",
         ],
         [
@@ -91,13 +123,13 @@ class Divisi
         [
             "nama" => "Ripan Kurniawan",
             "jabatan" => "Anggota",
-            "foto" => "ripan.jpg",
+            "foto" => "ripan.png",
             "divisi" => "humas",
         ],
         [
             "nama" => "Tiara Mayang Syahfitri",
             "jabatan" => "Anggota",
-            "foto" => "tiara.jpg",
+            "foto" => "mayang.png",
             "divisi" => "humas",
         ],
 
@@ -105,7 +137,7 @@ class Divisi
         [
             "nama" => "Said Al-Ghiyats",
             "jabatan" => "Ketua Divisi",
-            "foto" => "said.jpg",
+            "foto" => "said.png",
             "divisi" => "pubdok",
         ],
         [
@@ -123,196 +155,92 @@ class Divisi
         [
             "nama" => "Putri Amalia",
             "jabatan" => "Anggota",
-            "foto" => "putri.jpg",
+            "foto" => "putri.png",
             "divisi" => "pubdok",
         ],
         [
             "nama" => "Randi Akbar Syahputra",
             "jabatan" => "Anggota",
-            "foto" => "randi.jpg",
+            "foto" => "randi.png",
             "divisi" => "pubdok",
+        ],
+
+        // Kaderisasi
+        [
+            "nama" => "Alfisyahri Ramadhani",
+            "jabatan" => "Ketua Divisi",
+            "foto" => "alfisyahri.png",
+            "divisi" => "kaderisasi",
+        ],
+        [
+            "nama" => "Ade Afriwaldi",
+            "jabatan" => "Anggota",
+            "foto" => "ade.png",
+            "divisi" => "kaderisasi",
+        ],
+        [
+            "nama" => "Linda Hanisa",
+            "jabatan" => "Anggota",
+            "foto" => "linda.png",
+            "divisi" => "kaderisasi",
+        ],
+        [
+            "nama" => "Nurwahid Habibi",
+            "jabatan" => "Anggota",
+            "foto" => "wahid.png",
+            "divisi" => "kaderisasi",
+        ],
+        [
+            "nama" => "Setia Wanda",
+            "jabatan" => "Anggota",
+            "foto" => "wanda.png",
+            "divisi" => "kaderisasi",
         ],
 
         // Kesekretariatan
         [
-            "nama" => "Wanda Baskoro",
-            "jabatan" => "Ketua Bidang",
-            "foto" => "wanda.png",
+            "nama" => "Nazwa Shandy Aulia",
+            "jabatan" => "Ketua Divisi",
+            "foto" => "nazwa.png",
             "divisi" => "sekretariat",
         ],
         [
-            "nama" => "Dinda Pratiwi",
-            "jabatan" => "Sekretaris Bidang",
-            "foto" => "dinda.png",
-            "divisi" => "sekretariat",
-        ],
-        [
-            "nama" => "Andini",
+            "nama" => "Ilham Ageng Dwi Satria",
             "jabatan" => "Anggota",
-            "foto" => "andini.png",
+            "foto" => "ilham.png",
             "divisi" => "sekretariat",
         ],
         [
-            "nama" => "Delia Permata Sari",
+            "nama" => "Lybia Amanda",
             "jabatan" => "Anggota",
-            "foto" => "delia.png",
+            "foto" => "lybia.png",
             "divisi" => "sekretariat",
         ],
         [
-            "nama" => "Meisya Aprilia",
+            "nama" => "Sarikha Aq Malia",
             "jabatan" => "Anggota",
-            "foto" => "aprilia.png",
-            "divisi" => "sekretariat",
-        ],
-        [
-            "nama" => "Mutia Sari",
-            "jabatan" => "Anggota",
-            "foto" => "mutia.png",
-            "divisi" => "sekretariat",
-        ],
-        [
-            "nama" => "Nurafni",
-            "jabatan" => "Anggota",
-            "foto" => "nurafni.png",
-            "divisi" => "sekretariat",
-        ],
-        [
-            "nama" => "Samsul Bahri",
-            "jabatan" => "Anggota",
-            "foto" => "samsul.png",
-            "divisi" => "sekretariat",
-        ],
-        [
-            "nama" => "Srik Wardhani",
-            "jabatan" => "Anggota",
-            "foto" => "srik.png",
+            "foto" => "sarikha.png",
             "divisi" => "sekretariat",
         ],
 
-        // kwh
+        // Kewirausahaan
         [
-            "nama" => "Aji Priansyah",
-            "jabatan" => "Ketua Bidang",
-            "foto" => "aji.png",
-            "divisi" => "kwh",
+            "nama" => "Husnul Ridho Matondang",
+            "jabatan" => "Ketua Divisi",
+            "foto" => "husnul.png",
+            "divisi" => "wirausaha",
         ],
         [
-            "nama" => "Natasya Riska Amalia Hardi",
-            "jabatan" => "Sekretaris Bidang",
-            "foto" => "amalia.png",
-            "divisi" => "kwh",
-        ],
-        [
-            "nama" => "Cindi Maharani",
+            "nama" => "Ervina Permatasari",
             "jabatan" => "Anggota",
-            "foto" => "cindi.png",
-            "divisi" => "kwh",
+            "foto" => "ervina.png",
+            "divisi" => "wirausaha",
         ],
         [
-            "nama" => "Dwiyana Anggreini",
+            "nama" => "Nurul A'la",
             "jabatan" => "Anggota",
-            "foto" => "dwiyana.png",
-            "divisi" => "kwh",
-        ],
-        [
-            "nama" => "Erna Harmadani",
-            "jabatan" => "Anggota",
-            "foto" => "erna.png",
-            "divisi" => "kwh",
-        ],
-        [
-            "nama" => "Nurjanah",
-            "jabatan" => "Anggota",
-            "foto" => "nurjanah.png",
-            "divisi" => "kwh",
-        ],
-
-        // Seni
-        [
-            "nama" => "Anggi Syafitri",
-            "jabatan" => "Ketua",
-            "foto" => "anggi.png",
-            "divisi" => "seni",
-        ],
-        [
-            "nama" => "Darmi Samosir",
-            "jabatan" => "Sekretaris Bidang",
-            "foto" => "darmi.png",
-            "divisi" => "seni",
-        ],
-        [
-            "nama" => "Ade Meliza Tri Amanda",
-            "jabatan" => "Anggota",
-            "foto" => "meliza.png",
-            "divisi" => "seni",
-        ],
-        [
-            "nama" => "Desi Syafitri",
-            "jabatan" => "Anggota",
-            "foto" => "desi.png",
-            "divisi" => "seni",
-        ],
-        [
-            "nama" => "Frety Sri Rizki",
-            "jabatan" => "Anggota",
-            "foto" => "frety.png",
-            "divisi" => "seni",
-        ],
-        [
-            "nama" => "Indah Ayu Lestari",
-            "jabatan" => "Anggota",
-            "foto" => "indah.png",
-            "divisi" => "seni",
-        ],
-        [
-            "nama" => "Yasya Almira",
-            "jabatan" => "Anggota",
-            "foto" => "almira.png",
-            "divisi" => "seni",
-        ],
-        [
-            "nama" => "Yunita Anggraeni Simatupang",
-            "jabatan" => "Anggota",
-            "foto" => "yunita.png",
-            "divisi" => "seni",
-        ],
-
-        // Olahraga
-        [
-            "nama" => "M. Syahputra",
-            "jabatan" => "Ketua Bidang",
-            "foto" => "syahputra.png",
-            "divisi" => "olahraga",
-        ],
-        [
-            "nama" => "Dwi ariska",
-            "jabatan" => "Sekretaris Bidang",
-            "foto" => "ariska.png",
-            "divisi" => "olahraga",
-        ],
-        [
-            "nama" => "Muhammad Sufardan",
-            "jabatan" => "Anggota",
-            "foto" => "sufardan.png",
-            "divisi" => "olahraga",
-        ],
-        [
-            "nama" => "Putra Taufiqurrahman Ariza",
-            "jabatan" => "Anggota",
-            "foto" => "taufiq.png",
-            "divisi" => "olahraga",
-        ],
-        [
-            "nama" => "Tito Gilang Samudra",
-            "jabatan" => "Anggota",
-            "foto" => "tito.png",
-            "divisi" => "olahraga",
-        ],
-        [
-            "nama" => "Muhammad Maizaki",
-            "jabatan" => "Anggota",
-            "foto" => "maizaki.png",
-            "divisi" => "olahraga",
+            "foto" => "nurul.png",
+            "divisi" => "wirausaha",
         ],
     ];
 

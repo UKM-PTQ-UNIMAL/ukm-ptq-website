@@ -2,27 +2,23 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-
 class Sejarah
 {
     private static $content = '
-        <p>Ikatan Mahasiswa Aceh Tamiang (IMATA) didirikan di Lhokseumawe pada tanggal Tujuh Bulan April Tahun Dua Ribu Tiga belas (07/04/2013). Organisasi ini terbentuk atas inisiatif dari sekelompok mahasiswa yang berasal dari Aceh Tamiang dan sedang menempuh pendidikan di berbagai perguruan tinggi daerah Kota Lhokseumawe dan Aceh Utara. Mereka memiliki kesamaan latar belakang dan seringkali bertemu dalam kegiatan nongkrong di sekitar kampus.</p>
-            <p>Latar belakang terbentuknya IMATA berasal dari keinginan para mahasiswa Aceh Tamiang untuk mempererat tali silaturahmi dan solidaritas antar sesama mahasiswa yang berasal dari daerah yang sama. Selain itu, mereka juga ingin memajukan dan mengembangkan potensi-potensi yang ada di Aceh Tamiang, serta memberikan kontribusi positif dalam pembangunan daerah.</p>
-            <p>Dalam perjalanan sejarahnya, IMATA telah menjadi organisasi mahasiswa yang diakui dan memiliki peran yang penting dalam memajukan daerah asal mahasiswanya. Keberadaan IMATA diharapkan dapat menjadi inspirasi bagi organisasi mahasiswa lainnya untuk berkontribusi positif dalam memajukan daerahnya masing-masing.</p>
-            <p><strong>Tujuan IMATA</strong> adalah menampung seluruh element mahasiswa Tamiang yang berkuliah di Lhokseumawe - Aceh Utara menuju kehidupan kampus kritis yang bertanggung jawab, dinamis, demokratis dan harmonis.</p>
+        <p>Unit Kegiatan Mahasiswa Pengembangan Tilawatil Qur’an (UKM-PTQ) adalah salah satu unit kegiatan mahasiswa di Universitas Malikussaleh. UKM ini didirikan pada tanggal 15 Sya’ban 1430 H atau 7 Agustus 2009. Pembentukannya diprakarsai oleh mahasiswa-mahasiswi terbaik yang telah mengharumkan nama Unimal dalam Musabaqah Tilawatil Qur’an Antar Mahasiswa tingkat Nasional tahun 2009. Prestasi gemilang ini menjadi tonggak utama terbentuknya UKM-PTQ. Para mahasiswa ini memiliki cita-cita yang sama untuk mempelajari dan menggaungkan firman Allah serta mempertahankan eksistensi Universitas Malikussaleh sebagai gudangnya Qori-Qori’ah.</p>
+        <p>Seiring perkembangannya, UKM-PTQ telah mendapatkan legalitas dan izin penuh dari Universitas Malikussaleh. UKM ini berperan penting dalam menjaga dan membentuk karakter mahasiswa melalui implementasi nilai-nilai Al-Qur\'an. Selain itu, UKM-PTQ menumbuhkan bakat generasi muda dalam bidang tilawatil Qur\'an. UKM ini menjadi wadah bagi mahasiswa untuk mengasah kemampuan mereka dalam membaca dan memahami Al-Qur\'an. Ini membekali mereka dengan nilai-nilai islami yang kuat.</p>
+        <p><strong>Tujuan utama dari terbentuknya UKM-PTQ UNIMAL</strong> adalah untuk mensinergikan organisasi kealquranan antar fakultas di Universitas Malikussaleh. Selain itu, UKM ini bertujuan untuk menciptakan kader-kader yang mampu bersaing dengan universitas lain melalui bakat dan minat mereka. UKM ini juga berperan dalam mendakwahkan Al-Qur\'an kepada mahasiswa. Kegiatan-kegiatan qurani di lingkungan kampus Universitas Malikussaleh adalah bagian dari dakwah ini.</p>
             <h2 class="judul pt-4">
-                Fungsi IMATA
-            </h2>                      
+                Fungsi UKM PTQ UNIMAL
+            </h2>
             <ol>
-                <li>Mempererat tali silaturahmi antara mahasiswa Aceh Tamiang yang sedang menempuh pendidikan di berbagai perguruan tinggi di seluruh Indonesia.</li>
-                <li>Memajukan dan mengembangkan potensi-potensi yang ada di Aceh Tamiang.</li>
-                <li>Memberikan kontribusi positif dalam pembangunan daerah.</li>
-                <li>Menyediakan wadah bagi mahasiswa Aceh Tamiang untuk berorganisasi dan meningkatkan kualitas diri.</li>
-                <li>Mengadakan kegiatan sosial dan kepedulian terhadap masyarakat sekitar.</li>
-                <li>Mempromosikan kekayaan budaya Aceh Tamiang kepada masyarakat luas.</li>
-                <li>Menjadi inspirasi bagi organisasi mahasiswa lainnya untuk berkontribusi positif dalam memajukan daerahnya masing-masing.</li>
+                <li>Membina mahasiswa dalam keterampilan membaca Al-Qur\'an</li>
+                <li>Mengembangkan potensi mahasiswa dalam bidang tilawatil Qur\'an</li>
+                <li>Mensinergikan organisasi kealquranan antar fakultas di Universitas Malikussaleh.</li>
+                <li>Menciptakan kader-kader yang mampu bersaing dengan universitas lain</li>
+                <li>Mendakwahkan Al-Qur\'an kepada mahasiswa dan masyarakat melalui kegiatan-kegiatan qurani.</li>
+                <li>Menyelenggarakan kajian dan diskusi keislaman untuk memperdalam pemahaman mahasiswa</li>
+                <li>Menampung, mengarahkan, menyalurkan, serta memperjuangkan aspirasi mahasiswa dalam menjalankan roda organisasi.</li>
             </ol>
         ';
 

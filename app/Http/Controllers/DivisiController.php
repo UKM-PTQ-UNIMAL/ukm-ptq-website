@@ -28,18 +28,18 @@ class DivisiController extends Controller
             $nama_divisi = 'Pengurus Teras';
         } else if ($url_divisi == 'agama') {
             $nama_divisi = 'Keagamaan dan Sosial';
+        } else if ($url_divisi == 'pelatihan') {
+            $nama_divisi = 'Pendidikan dan Pelatihan';
         } else if ($url_divisi == 'humas') {
             $nama_divisi = 'Hubungan Masyarakat';
         } else if ($url_divisi == 'pubdok') {
             $nama_divisi = 'Publikasi dan Dokumentasi';
         } else if ($url_divisi == 'kaderisasi') {
-            $nama_divisi = 'Kaderisasi';
+            $nama_divisi = 'Kaderisasi dan Pengembangan';
         } else if ($url_divisi == 'sekretariat') {
             $nama_divisi = 'Kesekretariatan';
         } else if ($url_divisi == 'wirausaha') {
             $nama_divisi = 'Kewirausahaan';
-        } else if ($url_divisi == 'pelatihan') {
-            $nama_divisi = 'Pelatihan';
         }
 
         $this->meta->keywords = 'divisi ' . $nama_divisi . ' divisi ptq - unimal, ptq - unimal, ptq, unimal, mahasiswa ptq';

@@ -50,7 +50,7 @@
                                         @endif
                                         <div class="toko-info">
                                             <div>
-                                                <button class="btn btn-warning" type="button" data-id="{{ $product->id }}"
+                                                <button class="btn btn-primary" type="button" data-id="{{ $product->id }}"
                                                     data-bs-toggle="modal" data-bs-target="#beli"><i
                                                         class="bi bi-cart"></i></button>
                                             </div>
@@ -104,7 +104,7 @@
 
     <script>
         const products = @json($products).data;
-        document.querySelectorAll('.btn-warning').forEach(function(button) {
+        document.querySelectorAll('.btn-primary').forEach(function(button) {
             button.addEventListener('click', function() {
                 const productId = this.getAttribute('data-id');
                 const product = products.find(function(product) {
@@ -121,8 +121,8 @@
                 document.querySelector('.modal-body p').innerHTML = 'Deskripsi : <br>' + product
                     .description;
                 document.querySelector('.modal-body .d-grid a').href =
-                    "https://api.whatsapp.com/send?phone=6282293987201&text=Assalamu'alaikum%20Kak%20Saya%20ingin%20bertanya%20seputar%20produk%20" +
-                    product.name + "%20dari%20IMATA%20Shop";
+                    "https://api.whatsapp.com/send?phone=6283133371718&text=Assalamu'alaikum%20Kak%20Saya%20ingin%20bertanya%20seputar%20produk%20" +
+                    product.name + "%20dari%20PTQ%20Shop";
             });
         });
     </script>

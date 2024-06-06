@@ -17,12 +17,12 @@ class PostController extends Controller
     public function __construct()
     {
         $this->meta = new stdClass();
-        $this->meta->keywords = 'berita imata lhokseumawe - aceh utara, artikel imata lhokseumawe - aceh utara, imata lhokseumawe - aceh utara, imata, tamiang, mahasiswa tamiang';
-        $this->meta->author = 'INFOKOM IMATA';
-        $this->meta->description = 'Berita dan artikel mengenai Ikatan Mahasiswa Aceh Tamiang, Lhokseumawe - Aceh Utara';
-        $this->meta->url = 'https://imata.web.id/blog';
+        $this->meta->keywords = 'berita ukm ptq unimal, ukm ptq unimal, ukm ptq, ukm, ptq';
+        $this->meta->author = 'PUBDOK PTQ UNIMAL';
+        $this->meta->description = 'Berita dan Artikel Mengenai Unit Kegiatan Mahasiswa Pengembangan Tilawatil Qur\'an, Universitas Malikussaleh';
+        $this->meta->url = 'https://ptq.unimal.ac.id/blog';
         $this->meta->type = 'blog';
-        $this->meta->image = 'https://imata.web.id/img/logo.png';
+        $this->meta->image = 'https://ptq.unimal.ac.id/img/logo.png';
     }
 
     public function index()
@@ -32,24 +32,24 @@ class PostController extends Controller
             $category = Category::firstwhere('slug', request('category'));
             $title = ' mengenai ' . $category->name;
             $this->meta->keywords = $category->name . ', ' . $this->meta->keywords;
-            $this->meta->description = 'Berita dan artikel mengenai ' . $category->name . ' di Ikatan Mahasiswa Aceh Tamiang, Lhokseumawe - Aceh Utara';
-            $this->meta->url = 'https://imata.web.id/blog?category=' . $category->slug;
+            $this->meta->description = 'Berita dan artikel mengenai ' . $category->name . ' di Unit Kegiatan Mahasiswa Pengembangan Tilawatil Qur\'an, Universitas Malikussaleh';
+            $this->meta->url = 'https://ptq.unimal.ac.id/blog?category=' . $category->slug;
         }
 
         if (request('tag')) {
             $tag = Tag::firstwhere('slug', request('tag'));
             $title = ' dengan tag ' . $tag->name;
             $this->meta->keywords = $tag->name . ', ' . $this->meta->keywords;
-            $this->meta->description = 'Berita dan artikel dengan tag ' . $tag->name . ' di Ikatan Mahasiswa Aceh Tamiang, Lhokseumawe - Aceh Utara';
-            $this->meta->url = 'https://imata.web.id/blog?tag=' . $tag->slug;
+            $this->meta->description = 'Berita dan artikel dengan tag ' . $tag->name . ' di Unit Kegiatan Mahasiswa Pengembangan Tilawatil Qur\'an, Universitas Malikussaleh';
+            $this->meta->url = 'https://ptq.unimal.ac.id/blog?tag=' . $tag->slug;
         }
 
         if (request('author')) {
             $author = User::firstwhere('username', request('author'));
             $title = ' dari ' . $author->name;
             $this->meta->keywords = $author->name . ', ' . $this->meta->keywords;
-            $this->meta->description = 'Berita dan artikel dari ' . $author->name . ' di Ikatan Mahasiswa Aceh Tamiang, Lhokseumawe - Aceh Utara';
-            $this->meta->url = 'https://imata.web.id/blog?author=' . $author->username;
+            $this->meta->description = 'Berita dan artikel dari ' . $author->name . ' di Unit Kegiatan Mahasiswa Pengembangan Tilawatil Qur\'an, Universitas Malikussaleh';
+            $this->meta->url = 'https://ptq.unimal.ac.id/blog?author=' . $author->username;
         }
 
         return view('posts', [
@@ -71,9 +71,9 @@ class PostController extends Controller
 
         $this->meta->author = $post->author->username;
         $this->meta->description = $post->excerpt;
-        $this->meta->url = 'https://imata.web.id/blog/' . $post->slug;
+        $this->meta->url = 'https://ptq.unimal.ac.id/blog/' . $post->slug;
         $this->meta->type = 'article';
-        $this->meta->image = 'https://imata.web.id/storage/' . $post->image;
+        $this->meta->image = 'https://ptq.unimal.ac.id/storage/' . $post->image;
 
 
         return view('post', [
