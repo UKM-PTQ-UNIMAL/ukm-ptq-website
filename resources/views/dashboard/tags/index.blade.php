@@ -16,7 +16,7 @@
                     <div class="col-lg-12">
                         <div class="card card-primary">
                             <div class="card-header">
-                                <h4>Tambah Tags</h4>
+                                <h4 class="text-primary">Tambah Tags</h4>
                             </div>
                             <div class="card-body">
                                 <form action="/dashboard/tags" method="post">
@@ -42,7 +42,7 @@
                                             @enderror
                                             {{-- end input slug hidden --}}
                                             <div class="input-group-append">
-                                                <button class="btn btn-success" type="submit"><i class="fas fa-plus"></i>
+                                                <button class="btn btn-primary" type="submit"><i class="fas fa-plus"></i>
                                                     Tambah</button>
                                             </div>
                                         </div>
@@ -52,7 +52,7 @@
                         </div>
                         <div class="card card-primary">
                             <div class="card-header">
-                                <h4>Tags</h4>
+                                <h4 class="text-primary">Tags</h4>
                             </div>
                             <div class="card-body">
                                 @if (session('success'))
