@@ -4559,7 +4559,7 @@ fieldset:disabled .btn {
 .page-link {
     position: relative;
     display: block;
-    color: #198754;
+    color: #0d6efd;
     text-decoration: none;
     background-color: #fff;
     border: 1px solid #dee2e6;
@@ -4573,9 +4573,9 @@ fieldset:disabled .btn {
 }
 .page-link:hover {
     z-index: 2;
-    color: #198754;
+    color: #0d6efd;
     background-color: #e9ecef;
-    border-color: #198754;
+    border-color: #0d6efd;
 }
 .page-link:focus {
     z-index: 3;
@@ -4590,8 +4590,8 @@ fieldset:disabled .btn {
 .page-item.active .page-link {
     z-index: 3;
     color: #fff;
-    background-color: #198754;
-    border-color: #198754;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
 }
 .page-item.disabled .page-link {
     color: #6c757d;

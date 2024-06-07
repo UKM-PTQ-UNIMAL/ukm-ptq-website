@@ -1428,20 +1428,20 @@ table tr:hover .table-links {
 
 /* 3.10 Pagination */
 .page-item .page-link {
-    color: #47c363;
+    color: #0d6efd;
     border-radius: 3px;
     margin: 0 3px;
 }
 
 .page-item.active .page-link {
-    background-color: #47c363;
-    border-color: #47c363;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
 }
 
 .page-item.disabled .page-link {
     border-color: transparent;
     background-color: #f9fafe;
-    color: #47c363;
+    color: #0d6efd;
     opacity: 0.6;
 }
 
@@ -1451,7 +1451,7 @@ table tr:hover .table-links {
     font-weight: 600;
 }
 .page-link:hover {
-    background-color: #47c363;
+    background-color: #0d6efd;
     color: #fff;
     border-color: transparent;
 }
