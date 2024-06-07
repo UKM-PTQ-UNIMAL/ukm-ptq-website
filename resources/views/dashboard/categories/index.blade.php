@@ -56,8 +56,11 @@
                             </div>
                             <div class="card-body">
                                 @if (session('success'))
-                                    <div class="alert alert-success">
-                                        {{ session('success') }}
+                                    <div class="alert alert-primary alert-dismissible fade show" role="alert">
+                                        <strong>{{ session('success') }}</strong>
+                                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
                                     </div>
                                 @endif
                                 <div class="table-responsive">
